@@ -17,3 +17,7 @@ spec:
             backend:
               serviceName: image-catalog
               servicePort: 8080
+          - path: /image-analyzer(/|$)(.*)
+              backend:
+                serviceName: image-analyzer
+                servicePort: 8082
