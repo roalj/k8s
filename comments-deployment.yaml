@@ -23,7 +23,7 @@ spec:
             - name: KUMULUZEE_CONFIG_ETCD_HOSTS
               value: http://etcd:2379
             - name: KUMULUZEE_SERVER_BASEURL
-              value: http://34.76.248.125:8081
+              value: http://34.76.167.182:8081
             - name: KUMULUZEE_DATASOURCES0_CONNECTIONURL
               value: jdbc:postgresql://database-1.cgjpznojjyw2.eu-central-1.rds.amazonaws.com/comments
           ports:

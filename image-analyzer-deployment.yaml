@@ -23,7 +23,7 @@ spec:
             - name: KUMULUZEE_CONFIG_ETCD_HOSTS
               value: http://etcd:2379
             - name: KUMULUZEE_SERVER_BASEURL
-              value: http://34.76.248.125:8082
+              value: http://34.76.167.182:8082
             - name:  APP-PROPERTIES_IMAGE-ANALYZER_MONGODB-URL
               value: mongodb+srv://rkosir:logitech123@cluster0-49egp.mongodb.net/test?retryWrites=true&w=majority
             - name: APP-PROPERTIES_REKOGNITION_ACCESS-KEY
