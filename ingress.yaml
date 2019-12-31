@@ -21,3 +21,7 @@ spec:
             backend:
               serviceName: image-analyzer
               servicePort: 8082
+          - path: /etcd(/|$)(.*)
+            backend:
+              serviceName: etcd
+              servicePort: 2379
